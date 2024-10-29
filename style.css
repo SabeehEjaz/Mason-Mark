@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
+
+*{
+    font-family: "Ruda", sans-serif;
+
+} */
+
+.carousel-caption{
+    position: absolute;
+    top:220px;
+    z-index: 1;
+}
+
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.carousel-caption p{
+    margin: auto;
+    font-size: 20px;
+    width:70%;
+
+}
+
+.carousel-inner::before{ 
+    content:" ";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+
+}
+
+.section-padding{
+    padding: 100px 0;
+    background-color: aliceblue;
+}
+
+.about-text{
+    padding-top: 120px;
+}
+
+.card{
+    font-size: 20px;
+}
+
